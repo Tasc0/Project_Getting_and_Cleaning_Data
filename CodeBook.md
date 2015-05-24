@@ -17,7 +17,7 @@ Variable name    | Description
 	featAverage      | Average of each variable x each activity x each subject
 	
 	## Dataset structure
-	
+	```
 	------------------------------------------------------------------------------------------
 	## Classes 'data.table' and 'data.frame':	11880 obs. of  11 variables:
 	##  $ subject         : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -34,14 +34,14 @@ Variable name    | Description
 	##  - attr(*, "sorted")= chr  "subject" "activity" "featDomain" "featAcceleration" ...
 	##  - attr(*, ".internal.selfref")=<externalptr>
         -------------------------------------------------------------------------------------------	
-	
+	```
 	
   	## Key variables
-	
+	```
 	-------------------------------------------------------------------------------------------
 
 	## [1] "subject"          "activity"         "featDomain"      
 	## [4] "featAcceleration" "featInstrument"   "featJerk"        
 	## [7] "featMagnitude"    "featVariable"     "featAxis"
-
+```
 	
