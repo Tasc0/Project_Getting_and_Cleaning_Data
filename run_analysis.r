@@ -205,7 +205,7 @@ r1 == r2
 ##Create a tidy data
 ----------------------
 
-Create a data set with the average of each variable for each activity and each subject.
+##Create a data set with the average of each variable for each activity and each subject.
 
 ```{r}
 setkey(dt, subject, activity, featDomain, featAcceleration, featInstrument, featJerk, featMagnitude, featVariable, featAxis)
