@@ -16,7 +16,9 @@ Variable name    | Description
 	featCount        | Count of data points used to calculate average
 	featAverage      | Average of each variable x each activity x each subject
 	
-	## Dataset structure
+## Dataset structure
+
+	
 	```
 	------------------------------------------------------------------------------------------
 	## Classes 'data.table' and 'data.frame':	11880 obs. of  11 variables:
@@ -34,14 +36,18 @@ Variable name    | Description
 	##  - attr(*, "sorted")= chr  "subject" "activity" "featDomain" "featAcceleration" ...
 	##  - attr(*, ".internal.selfref")=<externalptr>
         -------------------------------------------------------------------------------------------	
-	```
-	
-  	## Key variables
+        ```
+        
+        
+## Key variables
+  	
+  	
 	```
 	-------------------------------------------------------------------------------------------
 
 	## [1] "subject"          "activity"         "featDomain"      
 	## [4] "featAcceleration" "featInstrument"   "featJerk"        
 	## [7] "featMagnitude"    "featVariable"     "featAxis"
-```
+	
+	```
 	
